@@ -1,0 +1,33 @@
+//=============================================================================
+// Generic project resource file
+//=============================================================================
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "FileDescription", "Requires WinRAR x64"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "ACupdater Remake"
+            VALUE "LegalCopyright", "Made by walray"
+            VALUE "OriginalFilename", "ACUpdater.exe"
+            VALUE "ProductName", "AC Updater"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+FB_PROGRAM_ICON ICON ".\icon.ico"
+
+//=============================================================================
+// Manifest
+//=============================================================================
+1 24 ".\manifest.xml"
